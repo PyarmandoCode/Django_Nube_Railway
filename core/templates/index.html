@@ -6,5 +6,10 @@
 </head>
 <body>
 <h1>Hola Bienvenido a Django en la Nube de Railway!! Es un Gusto Tenerte por aca</h1>
+
+
+{% for item in dep %}
+  <p> {{ item.departamento_nombre }}</p>
+{% endfor %}
 </body>
 </html>
