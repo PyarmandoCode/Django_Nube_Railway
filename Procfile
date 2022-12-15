@@ -1,0 +1,1 @@
+web: gunicorn demo_django_railway.wsgi --log-file -
